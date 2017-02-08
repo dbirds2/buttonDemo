@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+ <html>
+ 	<head>
+ 		<meta charset="utf-8">
+ 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 		<title></title>
+ 		<meta name="description" content=" " />
+ 		<meta name="author" content=" " />
+ 		<meta name="HandheldFriendly" content="true" />
+ 		<meta name="MobileOptimized" content="320" />
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>
+      .red {
+        background: red;
+      }
+
+      .blue {
+        background: blue;
+      }
+
+      .green {
+        background: green;
+      }
+
+      .gray {
+        background: gray;
+      }
+
+      .orange {
+        background: orange;
+      }
+
+      #colorChange {
+        width: 100px;
+        height: 100px;
+        margin:auto;
+        border: 1px solid black;
+      }
+
+      .btnContainer {
+        margin:auto;
+        text-align: center;
+        padding-top:10px;
+      }
+    </style>
+ 	</head>
+ 	<body>
+    <div id="colorChange"></div>
+    <div class="btnContainer">
+      <button onclick="red()">red</button>
+      <button onclick="blue()">blue</button>
+      <button onclick="green()">green</button>
+      <button onclick="gray()">gray</button>
+      <button onclick="orange()">orange</button>
+    </div>
+
+
+    <script>
+      var colorChange = document.getElementById('colorChange');
+      // EXAMPLE
+      // function red() {
+      //   colorChange.className = 'red';
+      // }
+    </script>
+ 	</body>
+ </html>
